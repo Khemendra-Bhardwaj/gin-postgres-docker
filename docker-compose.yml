@@ -6,7 +6,7 @@ services:
     image: postgres:latest
     container_name: go-basic-api_postgres
     ports:
-      - 5432:5432
+      - 5433:5432
     environment:
       POSTGRES_PASSWORD: postgres123
       POSTGRES_DB: mydatabase
